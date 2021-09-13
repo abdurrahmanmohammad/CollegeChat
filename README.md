@@ -609,4 +609,5 @@ App Admin Completed
 <img src='https://recordit.co/d7RD3MOuWy.gif' title='App Admin Walkthrough' width='' alt='Video Walkthrough' />
 
 College Admin Completed
+
 <img src='http://g.recordit.co/3AwVBWwiHw.gif' title='App Admin Walkthrough' width='' alt='Video Walkthrough' />
