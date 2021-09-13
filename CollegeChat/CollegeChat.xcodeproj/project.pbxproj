@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		153E0D4C263B993A00D113EE /* AppAdminHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E0D4B263B993A00D113EE /* AppAdminHomeTableViewCell.swift */; };
+		1569FAFA2640D1D100F5CDAE /* AppAdminHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1569FAF92640D1D100F5CDAE /* AppAdminHomeViewController.swift */; };
+		1574E1F9263CAF3500BAF522 /* AppAdminUsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1574E1F8263CAF3500BAF522 /* AppAdminUsersTableViewCell.swift */; };
+		1574E206263CB17C00BAF522 /* AppAdminUsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1574E205263CB17C00BAF522 /* AppAdminUsersTableViewController.swift */; };
+		1574E22C263CB9E900BAF522 /* AppAdminUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1574E22B263CB9E900BAF522 /* AppAdminUsersViewController.swift */; };
+		1574E23C263CC4B000BAF522 /* AppAdminEditUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1574E23B263CC4B000BAF522 /* AppAdminEditUserViewController.swift */; };
+		1574E24C263CD5B000BAF522 /* AppAdminViewAppAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1574E24B263CD5B000BAF522 /* AppAdminViewAppAdminViewController.swift */; };
+		1574E251263CDA7A00BAF522 /* AppAdminCreateAppAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1574E250263CDA7A00BAF522 /* AppAdminCreateAppAdminViewController.swift */; };
+		15EBBA462640943A0010812E /* AppAdminViewCollegesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EBBA452640943A0010812E /* AppAdminViewCollegesTableViewController.swift */; };
+		15EBBA4B264095000010812E /* AppAdminAddCollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EBBA4A264095000010812E /* AppAdminAddCollegeViewController.swift */; };
+		15EBBA502640954B0010812E /* AppAdminEditCollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EBBA4F2640954B0010812E /* AppAdminEditCollegeViewController.swift */; };
+		15EBBA55264097170010812E /* AppAdminCreateCollegeAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EBBA54264097170010812E /* AppAdminCreateCollegeAdminViewController.swift */; };
+		15EBBA5A264097980010812E /* AppAdminViewCollegeAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EBBA59264097980010812E /* AppAdminViewCollegeAdminViewController.swift */; };
+		15EBBA5F264099B10010812E /* AppAdminCollegeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EBBA5E264099B10010812E /* AppAdminCollegeTableViewCell.swift */; };
+		470F298E262A43FB008CA844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470F298D262A43FB008CA844 /* AppDelegate.swift */; };
+		470F2990262A43FB008CA844 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470F298F262A43FB008CA844 /* SceneDelegate.swift */; };
+		470F2992262A43FB008CA844 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470F2991262A43FB008CA844 /* ViewController.swift */; };
+		470F2995262A43FB008CA844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 470F2993262A43FB008CA844 /* Main.storyboard */; };
+		470F2997262A43FC008CA844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 470F2996262A43FC008CA844 /* Assets.xcassets */; };
+		470F299A262A43FC008CA844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 470F2998262A43FC008CA844 /* LaunchScreen.storyboard */; };
+		470F29A5262A43FC008CA844 /* CollegeChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470F29A4262A43FC008CA844 /* CollegeChatTests.swift */; };
+		470F29B0262A43FC008CA844 /* CollegeChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470F29AF262A43FC008CA844 /* CollegeChatUITests.swift */; };
+		473E0D37263BF06E00A8F131 /* AddClassCollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473E0D36263BF06E00A8F131 /* AddClassCollegeViewController.swift */; };
+		473E0D39263C8AAB00A8F131 /* CollegeSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473E0D38263C8AAB00A8F131 /* CollegeSettingsViewController.swift */; };
+		473E0D3F2644F81B00A8F131 /* CollegeClassDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473E0D3E2644F81B00A8F131 /* CollegeClassDetailsViewController.swift */; };
+		47B60826263002A3006FAEEE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B60825263002A3006FAEEE /* LoginViewController.swift */; };
+		47B6082B263002AD006FAEEE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B6082A263002AD006FAEEE /* SignUpViewController.swift */; };
+		47F3E5B2263BE2E2005DB696 /* CollegeAdminTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F3E5B1263BE2E2005DB696 /* CollegeAdminTableViewCell.swift */; };
+		47F3E5B4263BE6BC005DB696 /* CollegeAdminTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F3E5B3263BE6BC005DB696 /* CollegeAdminTableViewController.swift */; };
+		678FF69411B63C0EC6F37F57 /* Pods_CollegeChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98C4DB1C5638CF5D741DE7DC /* Pods_CollegeChatTests.framework */; };
+		7381F7C181F4FE656A2EDECC /* Pods_CollegeChat_CollegeChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6730A1B4DE305157911F51C3 /* Pods_CollegeChat_CollegeChatUITests.framework */; };
+		BF6FB679ED54EDE5EE7A416A /* Pods_CollegeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9655FCF75E9EDC16CE1A9A7 /* Pods_CollegeChat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		470F29A1262A43FC008CA844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 470F2982262A43FB008CA844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 470F2989262A43FB008CA844;
+			remoteInfo = CollegeChat;
+		};
+		470F29AC262A43FC008CA844 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 470F2982262A43FB008CA844 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 470F2989262A43FB008CA844;
+			remoteInfo = CollegeChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		153E0D4B263B993A00D113EE /* AppAdminHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAdminHomeTableViewCell.swift; sourceTree = "<group>"; };
+		1569FAF92640D1D100F5CDAE /* AppAdminHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAdminHomeViewController.swift; sourceTree = "<group>"; };
+		1574E1F8263CAF3500BAF522 /* AppAdminUsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAdminUsersTableViewCell.swift; sourceTree = "<group>"; };
+		1574E205263CB17C00BAF522 /* AppAdminUsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAdminUsersTableViewController.swift; sourceTree = "<group>"; };
+		1574E22B263CB9E900BAF522 /* AppAdminUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAdminUsersViewController.swift; sourceTree = "<group>"; };
+		1574E23B263CC4B000BAF522 /* AppAdminEditUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAdminEditUserViewController.swift; sourceTree = "<group>"; };
+		1574E24B263CD5B000BAF522 /* AppAdminViewAppAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAdminViewAppAdminViewController.swift; sourceTree = "<group>"; };
+		1574E250263CDA7A00BAF522 /* AppAdminCreateAppAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAdminCreateAppAdminViewController.swift; sourceTree = "<group>"; };
+		15EBBA452640943A0010812E /* AppAdminViewCollegesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAdminViewCollegesTableViewController.swift; sourceTree = "<group>"; };
+		15EBBA4A264095000010812E /* AppAdminAddCollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAdminAddCollegeViewController.swift; sourceTree = "<group>"; };
+		15EBBA4F2640954B0010812E /* AppAdminEditCollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAdminEditCollegeViewController.swift; sourceTree = "<group>"; };
+		15EBBA54264097170010812E /* AppAdminCreateCollegeAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAdminCreateCollegeAdminViewController.swift; sourceTree = "<group>"; };
+		15EBBA59264097980010812E /* AppAdminViewCollegeAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAdminViewCollegeAdminViewController.swift; sourceTree = "<group>"; };
+		15EBBA5E264099B10010812E /* AppAdminCollegeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAdminCollegeTableViewCell.swift; sourceTree = "<group>"; };
+		3CAD14D93D1BAECD09A26C4F /* Pods-CollegeChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeChatTests.debug.xcconfig"; path = "Target Support Files/Pods-CollegeChatTests/Pods-CollegeChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		470F298A262A43FB008CA844 /* CollegeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		470F298D262A43FB008CA844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		470F298F262A43FB008CA844 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		470F2991262A43FB008CA844 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		470F2994262A43FB008CA844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		470F2996262A43FC008CA844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		470F2999262A43FC008CA844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		470F299B262A43FC008CA844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		470F29A0262A43FC008CA844 /* CollegeChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollegeChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		470F29A4262A43FC008CA844 /* CollegeChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeChatTests.swift; sourceTree = "<group>"; };
+		470F29A6262A43FC008CA844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		470F29AB262A43FC008CA844 /* CollegeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollegeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		470F29AF262A43FC008CA844 /* CollegeChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeChatUITests.swift; sourceTree = "<group>"; };
+		470F29B1262A43FC008CA844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		473E0D36263BF06E00A8F131 /* AddClassCollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddClassCollegeViewController.swift; sourceTree = "<group>"; };
+		473E0D38263C8AAB00A8F131 /* CollegeSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeSettingsViewController.swift; sourceTree = "<group>"; };
+		473E0D3E2644F81B00A8F131 /* CollegeClassDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeClassDetailsViewController.swift; sourceTree = "<group>"; };
+		47B60825263002A3006FAEEE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		47B6082A263002AD006FAEEE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		47F3E5B1263BE2E2005DB696 /* CollegeAdminTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeAdminTableViewCell.swift; sourceTree = "<group>"; };
+		47F3E5B3263BE6BC005DB696 /* CollegeAdminTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeAdminTableViewController.swift; sourceTree = "<group>"; };
+		4DBE370A57FABBF56145454A /* Pods-CollegeChat-CollegeChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeChat-CollegeChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-CollegeChat-CollegeChatUITests/Pods-CollegeChat-CollegeChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6730A1B4DE305157911F51C3 /* Pods_CollegeChat_CollegeChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollegeChat_CollegeChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98C4DB1C5638CF5D741DE7DC /* Pods_CollegeChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollegeChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30D1CA23EBE00543D98B86D /* Pods-CollegeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeChat.debug.xcconfig"; path = "Target Support Files/Pods-CollegeChat/Pods-CollegeChat.debug.xcconfig"; sourceTree = "<group>"; };
+		B9655FCF75E9EDC16CE1A9A7 /* Pods_CollegeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollegeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9860750605F92EEE73129B /* Pods-CollegeChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeChatTests.release.xcconfig"; path = "Target Support Files/Pods-CollegeChatTests/Pods-CollegeChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		E392203B977ED7581AC29B03 /* Pods-CollegeChat-CollegeChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeChat-CollegeChatUITests.release.xcconfig"; path = "Target Support Files/Pods-CollegeChat-CollegeChatUITests/Pods-CollegeChat-CollegeChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4E86210216844022F1B60EC /* Pods-CollegeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollegeChat.release.xcconfig"; path = "Target Support Files/Pods-CollegeChat/Pods-CollegeChat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		470F2987262A43FB008CA844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6FB679ED54EDE5EE7A416A /* Pods_CollegeChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470F299D262A43FC008CA844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678FF69411B63C0EC6F37F57 /* Pods_CollegeChatTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470F29A8262A43FC008CA844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7381F7C181F4FE656A2EDECC /* Pods_CollegeChat_CollegeChatUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		461F5784A7B6B82B04F505B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A30D1CA23EBE00543D98B86D /* Pods-CollegeChat.debug.xcconfig */,
+				F4E86210216844022F1B60EC /* Pods-CollegeChat.release.xcconfig */,
+				4DBE370A57FABBF56145454A /* Pods-CollegeChat-CollegeChatUITests.debug.xcconfig */,
+				E392203B977ED7581AC29B03 /* Pods-CollegeChat-CollegeChatUITests.release.xcconfig */,
+				3CAD14D93D1BAECD09A26C4F /* Pods-CollegeChatTests.debug.xcconfig */,
+				BB9860750605F92EEE73129B /* Pods-CollegeChatTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		470F2981262A43FB008CA844 = {
+			isa = PBXGroup;
+			children = (
+				470F298C262A43FB008CA844 /* CollegeChat */,
+				470F29A3262A43FC008CA844 /* CollegeChatTests */,
+				470F29AE262A43FC008CA844 /* CollegeChatUITests */,
+				470F298B262A43FB008CA844 /* Products */,
+				461F5784A7B6B82B04F505B9 /* Pods */,
+				5F7AAC70E6537284815797DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		470F298B262A43FB008CA844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				470F298A262A43FB008CA844 /* CollegeChat.app */,
+				470F29A0262A43FC008CA844 /* CollegeChatTests.xctest */,
+				470F29AB262A43FC008CA844 /* CollegeChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		470F298C262A43FB008CA844 /* CollegeChat */ = {
+			isa = PBXGroup;
+			children = (
+				470F298D262A43FB008CA844 /* AppDelegate.swift */,
+				470F298F262A43FB008CA844 /* SceneDelegate.swift */,
+				470F2991262A43FB008CA844 /* ViewController.swift */,
+				470F2993262A43FB008CA844 /* Main.storyboard */,
+				470F2996262A43FC008CA844 /* Assets.xcassets */,
+				470F2998262A43FC008CA844 /* LaunchScreen.storyboard */,
+				470F299B262A43FC008CA844 /* Info.plist */,
+				47B60825263002A3006FAEEE /* LoginViewController.swift */,
+				47B6082A263002AD006FAEEE /* SignUpViewController.swift */,
+				47F3E5B1263BE2E2005DB696 /* CollegeAdminTableViewCell.swift */,
+				47F3E5B3263BE6BC005DB696 /* CollegeAdminTableViewController.swift */,
+				473E0D36263BF06E00A8F131 /* AddClassCollegeViewController.swift */,
+				473E0D38263C8AAB00A8F131 /* CollegeSettingsViewController.swift */,
+				473E0D3E2644F81B00A8F131 /* CollegeClassDetailsViewController.swift */,
+				153E0D4B263B993A00D113EE /* AppAdminHomeTableViewCell.swift */,
+				1574E1F8263CAF3500BAF522 /* AppAdminUsersTableViewCell.swift */,
+				1574E205263CB17C00BAF522 /* AppAdminUsersTableViewController.swift */,
+				1574E22B263CB9E900BAF522 /* AppAdminUsersViewController.swift */,
+				1574E23B263CC4B000BAF522 /* AppAdminEditUserViewController.swift */,
+				1574E24B263CD5B000BAF522 /* AppAdminViewAppAdminViewController.swift */,
+				1574E250263CDA7A00BAF522 /* AppAdminCreateAppAdminViewController.swift */,
+				15EBBA452640943A0010812E /* AppAdminViewCollegesTableViewController.swift */,
+				15EBBA4A264095000010812E /* AppAdminAddCollegeViewController.swift */,
+				15EBBA4F2640954B0010812E /* AppAdminEditCollegeViewController.swift */,
+				15EBBA54264097170010812E /* AppAdminCreateCollegeAdminViewController.swift */,
+				15EBBA59264097980010812E /* AppAdminViewCollegeAdminViewController.swift */,
+				15EBBA5E264099B10010812E /* AppAdminCollegeTableViewCell.swift */,
+				1569FAF92640D1D100F5CDAE /* AppAdminHomeViewController.swift */,
+			);
+			path = CollegeChat;
+			sourceTree = "<group>";
+		};
+		470F29A3262A43FC008CA844 /* CollegeChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				470F29A4262A43FC008CA844 /* CollegeChatTests.swift */,
+				470F29A6262A43FC008CA844 /* Info.plist */,
+			);
+			path = CollegeChatTests;
+			sourceTree = "<group>";
+		};
+		470F29AE262A43FC008CA844 /* CollegeChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				470F29AF262A43FC008CA844 /* CollegeChatUITests.swift */,
+				470F29B1262A43FC008CA844 /* Info.plist */,
+			);
+			path = CollegeChatUITests;
+			sourceTree = "<group>";
+		};
+		5F7AAC70E6537284815797DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9655FCF75E9EDC16CE1A9A7 /* Pods_CollegeChat.framework */,
+				6730A1B4DE305157911F51C3 /* Pods_CollegeChat_CollegeChatUITests.framework */,
+				98C4DB1C5638CF5D741DE7DC /* Pods_CollegeChatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		470F2989262A43FB008CA844 /* CollegeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 470F29B4262A43FC008CA844 /* Build configuration list for PBXNativeTarget "CollegeChat" */;
+			buildPhases = (
+				DEF6338A06651DF24F70045E /* [CP] Check Pods Manifest.lock */,
+				470F2986262A43FB008CA844 /* Sources */,
+				470F2987262A43FB008CA844 /* Frameworks */,
+				470F2988262A43FB008CA844 /* Resources */,
+				1DE58E558A49A32D6CD04A5D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollegeChat;
+			productName = CollegeChat;
+			productReference = 470F298A262A43FB008CA844 /* CollegeChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		470F299F262A43FC008CA844 /* CollegeChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 470F29B7262A43FC008CA844 /* Build configuration list for PBXNativeTarget "CollegeChatTests" */;
+			buildPhases = (
+				70648C7C55A2A39E56F5B834 /* [CP] Check Pods Manifest.lock */,
+				470F299C262A43FC008CA844 /* Sources */,
+				470F299D262A43FC008CA844 /* Frameworks */,
+				470F299E262A43FC008CA844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				470F29A2262A43FC008CA844 /* PBXTargetDependency */,
+			);
+			name = CollegeChatTests;
+			productName = CollegeChatTests;
+			productReference = 470F29A0262A43FC008CA844 /* CollegeChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		470F29AA262A43FC008CA844 /* CollegeChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 470F29BA262A43FC008CA844 /* Build configuration list for PBXNativeTarget "CollegeChatUITests" */;
+			buildPhases = (
+				D92C318DA00B94557F18333A /* [CP] Check Pods Manifest.lock */,
+				470F29A7262A43FC008CA844 /* Sources */,
+				470F29A8262A43FC008CA844 /* Frameworks */,
+				470F29A9262A43FC008CA844 /* Resources */,
+				94C644DA7A9FB0D13DE8B38E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				470F29AD262A43FC008CA844 /* PBXTargetDependency */,
+			);
+			name = CollegeChatUITests;
+			productName = CollegeChatUITests;
+			productReference = 470F29AB262A43FC008CA844 /* CollegeChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		470F2982262A43FB008CA844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					470F2989262A43FB008CA844 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					470F299F262A43FC008CA844 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 470F2989262A43FB008CA844;
+					};
+					470F29AA262A43FC008CA844 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 470F2989262A43FB008CA844;
+					};
+				};
+			};
+			buildConfigurationList = 470F2985262A43FB008CA844 /* Build configuration list for PBXProject "CollegeChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 470F2981262A43FB008CA844;
+			productRefGroup = 470F298B262A43FB008CA844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				470F2989262A43FB008CA844 /* CollegeChat */,
+				470F299F262A43FC008CA844 /* CollegeChatTests */,
+				470F29AA262A43FC008CA844 /* CollegeChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		470F2988262A43FB008CA844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470F299A262A43FC008CA844 /* LaunchScreen.storyboard in Resources */,
+				470F2997262A43FC008CA844 /* Assets.xcassets in Resources */,
+				470F2995262A43FB008CA844 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470F299E262A43FC008CA844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470F29A9262A43FC008CA844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DE58E558A49A32D6CD04A5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CollegeChat/Pods-CollegeChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CollegeChat/Pods-CollegeChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CollegeChat/Pods-CollegeChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70648C7C55A2A39E56F5B834 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CollegeChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94C644DA7A9FB0D13DE8B38E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CollegeChat-CollegeChatUITests/Pods-CollegeChat-CollegeChatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CollegeChat-CollegeChatUITests/Pods-CollegeChat-CollegeChatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CollegeChat-CollegeChatUITests/Pods-CollegeChat-CollegeChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D92C318DA00B94557F18333A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CollegeChat-CollegeChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF6338A06651DF24F70045E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CollegeChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		470F2986262A43FB008CA844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EBBA4B264095000010812E /* AppAdminAddCollegeViewController.swift in Sources */,
+				47B60826263002A3006FAEEE /* LoginViewController.swift in Sources */,
+				1574E206263CB17C00BAF522 /* AppAdminUsersTableViewController.swift in Sources */,
+				1574E23C263CC4B000BAF522 /* AppAdminEditUserViewController.swift in Sources */,
+				470F2992262A43FB008CA844 /* ViewController.swift in Sources */,
+				47F3E5B4263BE6BC005DB696 /* CollegeAdminTableViewController.swift in Sources */,
+				1574E22C263CB9E900BAF522 /* AppAdminUsersViewController.swift in Sources */,
+				1574E24C263CD5B000BAF522 /* AppAdminViewAppAdminViewController.swift in Sources */,
+				470F298E262A43FB008CA844 /* AppDelegate.swift in Sources */,
+				473E0D39263C8AAB00A8F131 /* CollegeSettingsViewController.swift in Sources */,
+				15EBBA55264097170010812E /* AppAdminCreateCollegeAdminViewController.swift in Sources */,
+				1569FAFA2640D1D100F5CDAE /* AppAdminHomeViewController.swift in Sources */,
+				470F2990262A43FB008CA844 /* SceneDelegate.swift in Sources */,
+				473E0D37263BF06E00A8F131 /* AddClassCollegeViewController.swift in Sources */,
+				1574E1F9263CAF3500BAF522 /* AppAdminUsersTableViewCell.swift in Sources */,
+				1574E251263CDA7A00BAF522 /* AppAdminCreateAppAdminViewController.swift in Sources */,
+				15EBBA5F264099B10010812E /* AppAdminCollegeTableViewCell.swift in Sources */,
+				153E0D4C263B993A00D113EE /* AppAdminHomeTableViewCell.swift in Sources */,
+				15EBBA5A264097980010812E /* AppAdminViewCollegeAdminViewController.swift in Sources */,
+				15EBBA502640954B0010812E /* AppAdminEditCollegeViewController.swift in Sources */,
+				15EBBA462640943A0010812E /* AppAdminViewCollegesTableViewController.swift in Sources */,
+				47B6082B263002AD006FAEEE /* SignUpViewController.swift in Sources */,
+				473E0D3F2644F81B00A8F131 /* CollegeClassDetailsViewController.swift in Sources */,
+				47F3E5B2263BE2E2005DB696 /* CollegeAdminTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470F299C262A43FC008CA844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470F29A5262A43FC008CA844 /* CollegeChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470F29A7262A43FC008CA844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470F29B0262A43FC008CA844 /* CollegeChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		470F29A2262A43FC008CA844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 470F2989262A43FB008CA844 /* CollegeChat */;
+			targetProxy = 470F29A1262A43FC008CA844 /* PBXContainerItemProxy */;
+		};
+		470F29AD262A43FC008CA844 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 470F2989262A43FB008CA844 /* CollegeChat */;
+			targetProxy = 470F29AC262A43FC008CA844 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		470F2993262A43FB008CA844 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				470F2994262A43FB008CA844 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		470F2998262A43FC008CA844 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				470F2999262A43FC008CA844 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		470F29B2262A43FC008CA844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		470F29B3262A43FC008CA844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		470F29B5262A43FC008CA844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A30D1CA23EBE00543D98B86D /* Pods-CollegeChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollegeChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.CollegeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		470F29B6262A43FC008CA844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E86210216844022F1B60EC /* Pods-CollegeChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollegeChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.CollegeChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		470F29B8262A43FC008CA844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CAD14D93D1BAECD09A26C4F /* Pods-CollegeChatTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollegeChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.CollegeChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollegeChat.app/CollegeChat";
+			};
+			name = Debug;
+		};
+		470F29B9262A43FC008CA844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9860750605F92EEE73129B /* Pods-CollegeChatTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollegeChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.CollegeChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollegeChat.app/CollegeChat";
+			};
+			name = Release;
+		};
+		470F29BB262A43FC008CA844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DBE370A57FABBF56145454A /* Pods-CollegeChat-CollegeChatUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollegeChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.CollegeChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollegeChat;
+			};
+			name = Debug;
+		};
+		470F29BC262A43FC008CA844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E392203B977ED7581AC29B03 /* Pods-CollegeChat-CollegeChatUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollegeChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codepath.CollegeChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollegeChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		470F2985262A43FB008CA844 /* Build configuration list for PBXProject "CollegeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470F29B2262A43FC008CA844 /* Debug */,
+				470F29B3262A43FC008CA844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		470F29B4262A43FC008CA844 /* Build configuration list for PBXNativeTarget "CollegeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470F29B5262A43FC008CA844 /* Debug */,
+				470F29B6262A43FC008CA844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		470F29B7262A43FC008CA844 /* Build configuration list for PBXNativeTarget "CollegeChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470F29B8262A43FC008CA844 /* Debug */,
+				470F29B9262A43FC008CA844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		470F29BA262A43FC008CA844 /* Build configuration list for PBXNativeTarget "CollegeChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470F29BB262A43FC008CA844 /* Debug */,
+				470F29BC262A43FC008CA844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 470F2982262A43FB008CA844 /* Project object */;
+}
