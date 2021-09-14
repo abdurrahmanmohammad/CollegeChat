@@ -9,6 +9,7 @@ target 'CollegeChat' do
   pod 'Parse'
   pod 'AlamofireImage'
   pod 'MBProgressHUD'
+  
 
   target 'CollegeChatTests' do
     inherit! :search_paths

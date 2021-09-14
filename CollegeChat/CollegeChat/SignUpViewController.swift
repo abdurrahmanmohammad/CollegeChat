@@ -60,7 +60,7 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         user.email = emailTextField.text
         user.password = passwordTextField.text
         user.username = usernameTextField.text
-        user["accountType"] = "College Admin"  //change according to needs
+        user["accountType"] = "Student"
         user["firstname"] = firstNameTextField.text
         user["lastname"] = lastNameTextField.text
         user["DOB"] = dateOfBirthTextField.text

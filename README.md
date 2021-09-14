@@ -39,10 +39,10 @@ CollegeChat is a social networking application for college students and instruct
   * [x] View users list
   * [x] View user
 * College Admin
-  * [ ] View classes
-  * [ ] Add class
-  * [ ] Edit class
-  * [ ] Edit college settings
+  * [X] View classes
+  * [X] Add class
+  * [X] Edit class
+  * [X] Edit college settings
 * Instructor
   * [ ] View classes
   * [ ] Add class
@@ -69,8 +69,8 @@ CollegeChat is a social networking application for college students and instruct
   * [x] View classes
   * [x] Add class
   * [x] View & modify profile
-  * [ ] Posts: View class posts
-  * [ ] Posts: Add new post
+  * [X] Posts: View class posts
+  * [X] Posts: Add new post
   * [ ] Posts: View particular post with replies
   * [ ] Posts: Reply to post
   * [ ] Group chat: View messages
@@ -609,5 +609,7 @@ App Admin Completed
 <img src='https://recordit.co/d7RD3MOuWy.gif' title='App Admin Walkthrough' width='' alt='Video Walkthrough' />
 
 College Admin Completed
-
 <img src='http://g.recordit.co/3AwVBWwiHw.gif' title='App Admin Walkthrough' width='' alt='Video Walkthrough' />
+
+Student Post Progress
+<img src='http://g.recordit.co/RHOwh7lYcw.gif' title='Student Screen Walkthrough' width='' alt='Video Walkthrough' />
